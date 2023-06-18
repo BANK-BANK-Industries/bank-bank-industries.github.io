@@ -7,10 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
       body{
-        background-color: rgb(7, 31, 110);
+        /*background-color: rgb(7, 31, 110);*/
+        background-image: url(light_blue_pink_bg_med.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
       }
 
-      h1, p{
+      p {
         color: aliceblue;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
@@ -29,24 +32,83 @@
         right: 10% ;
         top: 180%;
       }
+      .last_sec{
+        background-color: black;
+        color: white;
+      }
+      .table_one, th, td{
+        border: 2px groove white; 
+        border-radius: 100px;
+      }
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      .centered-heading {
+        text-align: center;
+        margin-bottom: 16px;
+        transition: opacity .2s;
+      }
 
     </style>
   </head>
   <body>
+
     <!--<div class="alert alert-success">
       <strong>Important!</strong> You should <a href="#message" class="alert-link">read this message</a>.
     </div>-->
-    <center> <h1>   <img style="width: 150px;height: 150px ;"src="https://cdn.discordapp.com/attachments/1114757442476179556/1117877202260873236/Bank_Bank_Industries_Logo_1.png" alt="Bank_Bank_Industries_Logo_1"> Bank Bank Industries</h1>
+
+    <section id="navbar">
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img style="width: 50px;height: 50px ;"src="https://cdn.discordapp.com/attachments/1114757442476179556/1117877202260873236/Bank_Bank_Industries_Logo_1.png" alt="Bank_Bank_Industries_Logo_1">
+            <span class="fs-4" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 500;">Bank Bank Industries</span>
+          </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#Headcount_Description" class="nav-link">Headcount</a></li>
+          <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#Partners" class="nav-link">Partners</a></li>
+          <li class="nav-item"><a href="#Team" class="nav-link">Team</a></li>
+        </ul>
+        </header>
+      </div>
+    </section>
+
+    <center> <!--<h1>   <img style="width: 150px;height: 150px ;"src="https://cdn.discordapp.com/attachments/1114757442476179556/1117877202260873236/Bank_Bank_Industries_Logo_1.png" alt="Bank_Bank_Industries_Logo_1"> Bank Bank Industries</h1>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  <section id="Headcount_Description">
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://cdn.discordapp.com/attachments/1114757442476179556/1117842345589755904/New_Headcount_Logo.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to the Future of Volunteer Management</h1>
+          <p class="lead" style="color: white;"> Insert Description of Headcount...</p>
+          <!--<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          </div>-->
+        </div>
+      </div>
+    </div>
+
+  </section> <hr>
     
-    <section id="Headcount Description">
+    <!--<section>
       <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue;"> Headcount </h2>
       <p style="font-size: large;">A premium volunteer management system designed for food banks. Our application allows food bank management to... </p>
     </section>
 
     <img style="background-color: antiquewhite;width: 200px;height: 200px;" src="https://cdn.discordapp.com/attachments/1114757442476179556/1117842345589755904/New_Headcount_Logo.png" alt="Headcount logo">
 
-    <!--<img style="background-color: antiquewhite;width: 200px;height: 200px;" src="https://cdn.discordapp.com/attachments/1114757442476179556/1117877202260873236/Bank_Bank_Industries_Logo_1.png" alt="BBI logo">--> <hr>
+    <img style="background-color: antiquewhite;width: 200px;height: 200px;" src="https://cdn.discordapp.com/attachments/1114757442476179556/1117877202260873236/Bank_Bank_Industries_Logo_1.png" alt="BBI logo">-->
     <!--<p style="font-size: 50px;">Learn More</p>-->
   
     <!--<form action="_blank">
@@ -70,6 +132,15 @@
   
   </center>
 
+<section id="Portfolio">
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Photo Album</h1>
+        <p style="color: black; font-size: larger; font-weight: lighter; font-family: sans-serif;">Check out some of our site visits and volunteering efforts!</p>
+      </div>
+    </div>
+  </section>
     <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -78,18 +149,35 @@
     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+
   </div>
 
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img style="height: max-content; width: 20px; background-attachment: fixed;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1116798898565029960/RC020197.JPG" alt="the team" class="d-block w-100">
+      <img style="height: 100%; width: 100%;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1118618758894862446/RC020244.JPG" alt="Unity_Square_Visit" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img style="height: fit-content; width: 20px; background-attachment: fixed;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1116798797205471302/RC020179.JPG" alt="volunteering" class="d-block w-100">
+      <img style="height: fit-content; width: 20px;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1116798797205471302/RC020179.JPG" alt="volunteering" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img style="height: fit-content; width: 20px; background-attachment: fixed;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1116798844395593839/RC020195.JPG" alt="development" class="d-block w-100">
+      <img src="https://cdn.discordapp.com/attachments/1110993890661630012/1116798844395593839/RC020195.JPG" alt="development" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 100%; width: 100%;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1119463495260446740/RC020285.JPG" alt="Hope_Visit" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 100%; width: 100%;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1118618751856816148/RC020235.JPG" alt="Hope_Visit" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 100%; width: 100%;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1116798898565029960/RC020197.JPG" alt="Hope_Visit" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 100%; width: 100%;" src="https://cdn.discordapp.com/attachments/1110993890661630012/1119461699032981584/RC020267.JPG" alt="Hope_Visit" class="d-block w-100">
     </div>
   </div>
 
@@ -101,10 +189,11 @@
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
-<hr>
 
-<section>
-  <figure>
+</section>
+
+<section id="Partners">
+  <!--<figure>
     <center>
       <p>
       <div class="MEVO_Align">
@@ -119,11 +208,73 @@
       </div>
       </p>
     </center>
-  </figure>
+  </figure>-->
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Our Partners</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        </div class="MEVO_Align">
+        <img src="https://res.cloudinary.com/dktp1ybbx/image/upload/f_auto,fl_lossy,q_auto/v1618632863/organization/prod/355880/AyKqFg4WMK.jpg" alt="MEVO Org." style="height: 200px; width: 200px;">
+        <h3 class="fs-2 text-body-emphasis">MEVO</h3>
+        <p style="color: black;">Add description of partner...</p>
+        <a href="https://www.mevo.org/" target="_blank" class="btn btn-primary">
+          Learn More&gt;
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        </div>
+        <img src="https://newbrunswick.rutgers.edu/sites/default/files/styles/1x1_one_third_default_1x/public/2022-07/square_image_for_website_1080x10805.png?h=57024e64&itok=XgPxy8Rh" alt="Unity Square logo" style="height: 200px; width: 200px;"><br>
+        <h3 class="fs-2 text-body-emphasis">Unity Square</h3>
+        <p style="color: black;">Add description of partner...</p>
+        <a href="https://ccdom.org/usq" target="_blank" class="btn btn-primary">
+          Learn More&gt;
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        </div>
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/George_Street_Co-op_Logo.svg/1200px-George_Street_Co-op_Logo.svg.png" alt="George Street Co-Op" style="height: 200px; width: 200px;">
+        <h3 class="fs-2 text-body-emphasis">George Street Co-Op </h3>
+        <p style="color: black;">Add description of partner...</p>
+        <a href="https://georgestreetcoop.com/" target="_blank" class="btn btn-primary">
+          Learn More&gt;
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="Team">
+  <h2 class="centered-heading">Meet the awesome team</h2>
+  <div>
+
+  </div>
+
 </section>
 
-<center><p>&copy; Bank Bank Inc.</p></center>
-<p></p>
 
+</section>
+
+  <footer class="last_sec" style="background-image: url(light_blue_pink_bg_med.jpg); background-repeat: no-repeat; background-attachment: scroll;"> <br>
+    <table class="table_one" style="width: 100%;">
+      <tr>
+        <th style="text-align: center;">Contact Us</th>
+        <th style="text-align: center;">Help</th>
+        <th style="text-align: center;">Legal Info</th>
+      </tr>
+      <tr>
+        <td style="text-align: center;">&lt; bankbankindustries@gmail.com &gt;</td>
+        <td style="text-align: center;"> <a href="#" style="color: white;">FAQ</a></td>
+        <td style="text-align: center;">Privacy & Terms of Service</td>
+      </tr>
+
+    </table> <br>
+
+  <center><p style="color: white">&copy; Bank Bank Inc. 2023</p></center>
+
+  </footer>
   </body>
 </html>
